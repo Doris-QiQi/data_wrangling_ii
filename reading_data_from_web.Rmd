@@ -2,7 +2,7 @@
 title: "reading_data_from_the_web"
 author: "Jingyi Yao"
 date: "`r Sys.Date()`"
-output: html_document
+output: github_document
 ---
 
 ```{r,warning=FALSE,message=FALSE}
@@ -93,15 +93,6 @@ runtime_vec =     # runtime
   html_text()
 
 runtime_vec
-```
-
-```{r}
-swm_df =    # combine the vectors above together
-  tibble(
-    title = title_vec,
-    rev = gross_rev_vec,
-    runtime = runtime_vec)
-
 ```
 
 
